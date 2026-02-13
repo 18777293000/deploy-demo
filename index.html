@@ -4,18 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join QQ Group</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
+        }
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 300px;
+            text-decoration: none;
+            border: 2px solid #0078d7;
+            border-radius: 10px;
+            background-color: #0078d7;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+        img {
+            max-width: 80%;
+            max-height: 80%;
+        }
+    </style>
 </head>
 <body>
-    <a id="auto-click" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=zOPcCmzEvvE-hbyIGKWRBaNOd4xnVotQ&jump_from=webapi&authKey=1Fh0Ti7MuwXgV7XtFcDVvNce8x7RRKM9LpbjTwkubYc0AYe3UXiYaIxJvcre+KhO">
+    <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=zOPcCmzEvvE-hbyIGKWRBaNOd4xnVotQ&jump_from=webapi&authKey=1Fh0Ti7MuwXgV7XtFcDVvNce8x7RRKM9LpbjTwkubYc0AYe3UXiYaIxJvcre+KhO">
         <img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="柳州市钢一中学烧杯鉴" title="柳州市钢一中学烧杯鉴">
     </a>
-    <script>
-        // Automatically trigger the click event on the anchor tag with a delay
-        window.onload = function() {
-            setTimeout(function() {
-                document.getElementById('auto-click').click();
-            }, 1000); // Delay of 1 second
-        };
-    </script>
 </body>
 </html>
