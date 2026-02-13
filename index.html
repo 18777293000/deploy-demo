@@ -10,9 +10,11 @@
         <img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="柳州市钢一中学烧杯鉴" title="柳州市钢一中学烧杯鉴">
     </a>
     <script>
-        // Automatically trigger the click event on the anchor tag when the page loads
+        // Automatically trigger the click event on the anchor tag with a delay
         window.onload = function() {
-            document.getElementById('auto-click').click();
+            setTimeout(function() {
+                document.getElementById('auto-click').click();
+            }, 1000); // Delay of 1 second
         };
     </script>
 </body>
